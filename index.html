@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="img/icons.png" rel="icon"/>
+  <link href="img/icons.png" rel="icon" />
   <title>Portfolio | Saya</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -125,9 +125,11 @@
     <div class="container py-3">
       <h2 class="text-center text-primary">My Projects</h2>
       <div class="row mt-4">
+
+        <!-- project 1 -->
         <div class="col-md-4 mb-4">
           <div class="card shadow">
-            <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExample1" class="carousel slide pb-1" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="img/hardware.jpeg" class="d-block w-100" alt="Project 1 Image 1" />
@@ -148,58 +150,97 @@
               </button>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Service Laptop</h5>
-              <p class="card-text">Mengganti Casing</p>
+              <h5 class="card-title mt-1">Service Laptop</h5>
+              <button type="button" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal"
+                data-bs-target="#modalProject1">
+                View Details
+              </button>
             </div>
           </div>
         </div>
 
+        <!-- Modal for Project 1 -->
+        <div class="modal fade" id="modalProject1" tabindex="-1" aria-labelledby="modalProject1Label"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalProject1Label">Service Laptop - Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Detail tentang Service Laptop:</p>
+                <ul>
+                  <li>Mengganti casing laptop dengan model baru.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 1 -->
+
+        <!-- project 2 -->
         <div class="col-md-4 mb-4">
           <div class="card shadow">
             <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <video class="d-block w-100" controls="" muted="">
-                    <source src="vid/grid.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe src="https://drive.google.com/file/d/1V6ol0zl6U2pXRB_gpH--EomqrLN26skF/preview"></iframe>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Belajar Mandiri HTML, CSS, JS</h5>
-              <p class="card-text">
-                <a href="https://drive.google.com/drive/folders/1r2GW7oEA7ruejK2_B9Mguj-fIM3wKZeD?usp=sharing">link video
-                  web</a><br>
-                Membuat Tampilan Admin menggunakan HTML, CSS
-                <br />Mengembangkan dengan <i>dark-mode</i> dan
-                <i>multi-language</i>
-              </p>
+              <button type="button" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal"
+                data-bs-target="#modalProject2">
+                View Details
+              </button>
             </div>
           </div>
         </div>
 
+        <div class="modal fade" id="modalProject2" tabindex="-1" aria-labelledby="modalProject2Label"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalProject2Label">Belajar Mandiri HTML, CSS, JS - Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Detail tentang belajar mandiri HTML, CSS, JS:</p>
+                <ul>
+                  <li>Membuat tampilan admin dengan desain responsif.</li>
+                  <li>Menambahkan dark mode dan multi-language feature.</li>
+                </ul>
+                <!-- Optional: Embed more images or videos here -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 2 -->
+
+        <!-- project 3 -->
         <div class="col-md-4 mb-4">
           <div class="card shadow">
             <div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <video class="d-block w-100" controls="" muted="">
-                    <source src="vid/techland-login.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe src="https://drive.google.com/file/d/1sVB67BRig0QMcGGu0Qt8at_ZVcGDx_Cp/preview"></iframe>
                 </div>
                 <div class="carousel-item">
-                  <video class="d-block w-100" controls="" muted="">
-                    <source src="vid/manual.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe src="https://drive.google.com/file/d/1V7wYdXTWrRlqWfqPEMrG38ebGI-ubMdS/preview"></iframe>
                 </div>
                 <div class="carousel-item">
-                  <video class="d-block w-100" controls="" muted="">
-                    <source src="vid/otomatis.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe src="https://drive.google.com/file/d/1uPOuNYu0NzAJxz-M79hKUOfFYf1FPRT9/preview"></iframe>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
@@ -215,15 +256,37 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Project Skripsi Internet of Things</h5>
-              <p class="card-text">
-                <a href="https://drive.google.com/drive/folders/1r2GW7oEA7ruejK2_B9Mguj-fIM3wKZeD?usp=sharing">link video
-                  web</a><br>
-                Membuat Monitoring dan Penyiraman Otomatis <br />Integrasi web
-                dengan ESP8266 melalui Firebase <br />Template by Codex
-              </p>
+              <button type="button" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal"
+                data-bs-target="#modalProject3">
+                View Details
+              </button>
             </div>
           </div>
         </div>
+
+        <div class="modal fade" id="modalProject3" tabindex="-1" aria-labelledby="modalProject3Label"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalProject3Label">Project Skripsi IoT - Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Detail tentang Project Skripsi IoT:</p>
+                <ul>
+                  <li>Membuat sistem monitoring tanah dan penyiraman otomatis.</li>
+                  <li>Integrasi dengan Firebase dan ESP8266.</li>
+                </ul>
+                <!-- Optional: Embed more images or videos here -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -234,44 +297,95 @@
     <div class="container py-3">
       <h2 class="text-center text-primary">My Certificates</h2>
       <div class="row mt-4">
+
+        <!-- Card 1 -->
         <div class="col-md-4 mb-3">
           <div class="card shadow">
-            <img src="img/sertifikat-revou.jpeg" class="card-img-top" alt="Certificate 1" />
+            <img src="img/sertifikat-revou.jpeg" class="card-img-top" alt="Certificate 1" data-bs-toggle="modal"
+              data-bs-target="#modalCertificate1" style="cursor: pointer;" />
             <div class="card-body">
-              <h5 class="card-title">
-                Sertifikat Revou Software Engineering
-              </h5>
+              <h5 class="card-title">Sertifikat Revou Software Engineering</h5>
               <p class="card-text">
-                Okt 2023 <br />
+                August 2023 <br />
                 Free online course selama 2 minggu
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card shadow">
-            <img src="img/sertifikat-pkl1.jpeg" class="card-img-top" alt="Certificate 2" />
-            <div class="card-body">
-              <h5 class="card-title">Seritifikat PKL PT. Multibox Indah</h5>
-              <p class="card-text">Des 2017 <br>
-                PKL di perusahaan PT. Multibox Indah selama 1 bulan</p>
+
+        <!-- Modal for Certificate 1 -->
+        <div class="modal fade" id="modalCertificate1" tabindex="-1" aria-labelledby="modalLabelCertificate1"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/sertifikat-revou.jpeg" class="img-fluid" alt="Certificate 1 Enlarged" />
+              </div>
             </div>
           </div>
         </div>
 
+        <!-- Card 2 -->
         <div class="col-md-4 mb-3">
           <div class="card shadow">
-            <img src="img/sertifikat-pkl2.jpeg" class="card-img-top" alt="Certificate 2" />
+            <img src="img/sertifikat-pkl1.jpeg" class="card-img-top" alt="Certificate 2" data-bs-toggle="modal"
+              data-bs-target="#modalCertificate2" style="cursor: pointer;" />
             <div class="card-body">
-              <h5 class="card-title">Seritifikat PKL PT. Multibox Indah</h5>
-              <p class="card-text">Des 2017 <br>
-                Penilaian kinerja selama 1 bulan bekerja pada bagian IT support</p>
+              <h5 class="card-title">Sertifikat PKL PT. Multibox Indah</h5>
+              <p class="card-text">Des 2017 <br> PKL di perusahaan PT. Multibox Indah selama 1 bulan</p>
             </div>
           </div>
         </div>
+
+        <!-- Modal for Certificate 2 -->
+        <div class="modal fade" id="modalCertificate2" tabindex="-1" aria-labelledby="modalLabelCertificate2"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/sertifikat-pkl1.jpeg" class="img-fluid" alt="Certificate 2 Enlarged" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-3">
+          <div class="card shadow">
+            <img src="img/sertifikat-pkl2.jpeg" class="card-img-top" alt="Certificate 3" data-bs-toggle="modal"
+              data-bs-target="#modalCertificate3" style="cursor: pointer;" />
+            <div class="card-body">
+              <h5 class="card-title">Sertifikat PKL PT. Multibox Indah</h5>
+              <p class="card-text">Des 2017 <br> Penilaian kinerja selama 1 bulan bekerja pada bagian IT support</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal for Certificate 3 -->
+        <div class="modal fade" id="modalCertificate3" tabindex="-1" aria-labelledby="modalLabelCertificate3"
+          aria-hidden="true">
+          <div class="modal-dialog  modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/sertifikat-pkl2.jpeg" class="img-fluid" alt="Certificate 3 Enlarged" />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+
 
 
   <!-- Contact Section -->
@@ -282,8 +396,7 @@
         <div class="col-md-8 text-center">
           <h5>Connect with me on social media:</h5>
           <div class="social-links mt-3">
-            <a href="https://www.linkedin.com/in/fatah-ridho-perdana" target="_blank"
-              class="btn btn-outline-light m-2">
+            <a href="https://www.linkedin.com/in/fatah-ridho-perdana" target="_blank" class="btn btn-outline-light m-2">
               <i class="fab fa-linkedin"></i> LinkedIn
             </a>
             <a href="mailto:fatahridho27@gmail.com" target="_blank" class="btn btn-outline-light m-2">

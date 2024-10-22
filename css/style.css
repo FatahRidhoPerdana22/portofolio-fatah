@@ -40,7 +40,7 @@ body {
     transform: scale(1.05);
 }
 
-.card video {
+.card iframe {
     width: 100%; 
     height: 200px;
     object-fit: contain;
@@ -48,9 +48,8 @@ body {
 
 .card img {
     width: 100%; 
-    height: auto;
-    max-height: 270px;
-    object-fit: contain;
+    height: 200px;
+    object-fit: fill;
 }
 
 .certificates-section .card {
