@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="img/icons.png" rel="icon"/>
+  <title>Portfolio | Saya</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">PortoFRP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center d-flex align-items-center justify-content-center" id="hero">
+    <div class=""></div>
+    <div class="container">
+      <h1 class="display-4">Hello, I'm <span>Fatah Ridho Perdana</span></h1>
+      <p class="lead">Networking | Programmer | Tech Enthusiast</p>
+      <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/profil.jpeg" class="img-fluid rounded-circle shadow profile-photo" alt="Your Photo" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-primary">About Me</h2>
+          <p class="lead">
+            Halo, Saya adalah lulusan S1 Teknik Informatika Universitas
+            Pamulang (IPK 3,49). Saya memiliki minat besar pada teknologi dan
+            inovasi. Selama masa studi, saya telah mengembangkan beberapa
+            keterampilan dibidang jaringan, internet of things, dan web
+            development dengan teknologi modern, serta pemrograman berbasis
+            database
+          </p>
+          <a href="#contact" class="btn btn-outline-primary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section bg-light py-5">
+    <div class="container py-3">
+      <h2 class="text-center text-primary">My Skills</h2>
+      <div class="row text-center mt-4">
+        <div class="col-md-4">
+          <div class="skill-card shadow-sm p-3 mb-4 bg-white rounded">
+            <i class="fas fa-code fs-1 text-primary"></i>
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript, Bootstrap</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card shadow-sm p-3 mb-4 bg-white rounded">
+            <i class="fas fa-desktop-alt fs-1 text-primary"></i>
+            <h4>Hardware</h4>
+            <p>Troubleshooting, Instalasi</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card shadow-sm p-3 mb-4 bg-white rounded">
+            <i class="fas fa-git-alt fs-1 text-primary"></i>
+            <h4>Version Control</h4>
+            <p>GitHub</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card shadow-sm p-3 mb-4 bg-white rounded">
+            <i class="fas fa-cogs fs-1 text-primary"></i>
+            <h4>Programming</h4>
+            <p>JavaScript, Php, C++</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card shadow-sm p-3 mb-4 bg-white rounded">
+            <i class="fas fa-network-wired fs-1 text-primary"></i>
+            <h4>Network</h4>
+            <p>Konfigurasi Router, Mikrotik, Access Point</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start projects section -->
+  <section id="projects" class="projects-section py-5">
+    <div class="container py-3">
+      <h2 class="text-center text-primary">My Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/hardware.jpeg" class="d-block w-100" alt="Project 1 Image 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/hardware-1.jpeg" class="d-block w-100" alt="Project 1 Image 2" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Service Laptop</h5>
+              <p class="card-text">Mengganti Casing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <video class="d-block w-100" controls="" muted="">
+                    <source src="vid/grid.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Belajar Mandiri HTML, CSS, JS</h5>
+              <p class="card-text">
+                <a href="https://drive.google.com/drive/folders/1r2GW7oEA7ruejK2_B9Mguj-fIM3wKZeD?usp=sharing">link video
+                  web</a><br>
+                Membuat Tampilan Admin menggunakan HTML, CSS
+                <br />Mengembangkan dengan <i>dark-mode</i> dan
+                <i>multi-language</i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <video class="d-block w-100" controls="" muted="">
+                    <source src="vid/techland-login.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="carousel-item">
+                  <video class="d-block w-100" controls="" muted="">
+                    <source src="vid/manual.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="carousel-item">
+                  <video class="d-block w-100" controls="" muted="">
+                    <source src="vid/otomatis.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project Skripsi Internet of Things</h5>
+              <p class="card-text">
+                <a href="https://drive.google.com/drive/folders/1r2GW7oEA7ruejK2_B9Mguj-fIM3wKZeD?usp=sharing">link video
+                  web</a><br>
+                Membuat Monitoring dan Penyiraman Otomatis <br />Integrasi web
+                dengan ESP8266 melalui Firebase <br />Template by Codex
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end project section -->
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates-section bg-light py-5">
+    <div class="container py-3">
+      <h2 class="text-center text-primary">My Certificates</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-3">
+          <div class="card shadow">
+            <img src="img/sertifikat-revou.jpeg" class="card-img-top" alt="Certificate 1" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Sertifikat Revou Software Engineering
+              </h5>
+              <p class="card-text">
+                Okt 2023 <br />
+                Free online course selama 2 minggu
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow">
+            <img src="img/sertifikat-pkl1.jpeg" class="card-img-top" alt="Certificate 2" />
+            <div class="card-body">
+              <h5 class="card-title">Seritifikat PKL PT. Multibox Indah</h5>
+              <p class="card-text">Des 2017 <br>
+                PKL di perusahaan PT. Multibox Indah selama 1 bulan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card shadow">
+            <img src="img/sertifikat-pkl2.jpeg" class="card-img-top" alt="Certificate 2" />
+            <div class="card-body">
+              <h5 class="card-title">Seritifikat PKL PT. Multibox Indah</h5>
+              <p class="card-text">Des 2017 <br>
+                Penilaian kinerja selama 1 bulan bekerja pada bagian IT support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-dark text-white py-5">
+    <div class="container py-3">
+      <h2 class="text-center">Contact Me</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8 text-center">
+          <h5>Connect with me on social media:</h5>
+          <div class="social-links mt-3">
+            <a href="https://www.linkedin.com/in/fatah-ridho-perdana" target="_blank"
+              class="btn btn-outline-light me-2">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:fatahridho27@gmail.com" target="_blank" class="btn btn-outline-light me-2">
+              <i class="fa-solid fa-envelope"></i> Email
+            </a>
+            <a href="https://github.com/FatahRidhoPerdana22" target="_blank" class="btn btn-outline-light me-2">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://instagram.com/fatahrdh_22" target="_blank" class="btn btn-outline-light me-2">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://wa.me/6285718024378" target="_blank" class="btn btn-outline-light">
+              <i class="fab fa-whatsapp"></i> Whatsapp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-white bg-dark">
+    <p>© 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
